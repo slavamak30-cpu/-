@@ -23,7 +23,7 @@ def generate_answer(question, context_chunks):
         creds = st.secrets["GIGACHAT_CREDENTIALS"]
     except:
         # ВСТАВЬ СЮДА СВОЙ КЛЮЧ ОТ GIGACHAT
-        creds = "MDFhMWNiM2QtZTZjOS03MTcyLTgyZGEtYzk0ZmE5NTUyM2Q4OmQxYzBkMzRhLWM1ZTUtNDY0My04ZTA0LTc3Y2M4MDg0ZTY3Nw=="
+        creds = "MDFhMWNiM2QtZTZjOS03MTcyLTgyZGEtYzk0ZmE5NTUyM2Q4OmYwODJlYjA2LTJmMjEtNDQwYS1iYTk1LTY4NDZmZjE5OThjYQ==w"
 
     # Исправление ошибки Event Loop для Streamlit
     try:
